@@ -1,0 +1,42 @@
+def generate_force_transfer_diagram():
+    diagram = [
+        "            O",
+        "            |",
+        "            |",
+        "            |",
+        "   -----------------",
+        "   |               |",
+        "   |    Core       |",
+        "   |    Muscles    |",
+        "   |               |",
+        "   |               |",
+        "   |               |",
+        "   |               |",
+        "   -----------------",
+        "            |",
+        "            |",
+        "            |",
+        "            |",
+        "          Shoulder",
+        "            |",
+        "            |",
+        "            |",
+        "            |",
+        "          Arm",
+        "            |",
+        "            |",
+        "            |",
+        "            |",
+        "          Forearm",
+        "            |",
+        "            |",
+        "            |",
+        "            |",
+        "          Hand"
+    ]
+    
+    return "\n".join(diagram)
+
+# Usage example:
+force_transfer_diagram = generate_force_transfer_diagram()
+print(force_transfer_diagram)
